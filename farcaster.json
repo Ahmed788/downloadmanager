@@ -7,5 +7,12 @@
   "banner": "/public/banner.png",
   "entry": "/",
   "permissions": [],
-  "sdk": true
+  "sdk": true,
+  "meta": {
+    "title": "My Farcaster MiniApp",
+    "description": "Quick Auth demo miniapp showing Farcaster user info (FID, username, pfp).",
+    "image": "/public/banner.png",
+    "icon": "/public/icon.png",
+    "viewport": "width=device-width, initial-scale=1"
+  }
 }
