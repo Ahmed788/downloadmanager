@@ -10,16 +10,30 @@
   },
   "dependencies": {
     "@farcaster/miniapp-sdk": "^0.1.10",
-    "autoprefixer": "^10.0.0",
-    "next": "^15.0.0",
-    "postcss": "^8.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^4.0.0"
+    "autoprefixer": "^10.4.23",
+    "next": "^15.5.9",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "@types/react": "^18.0.0",
-    "typescript": "^5.0.0"
-  }
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/node": "^20.19.27",
+    "@types/react": "^18.3.27",
+    "typescript": "^5.8.3"
+  },
+  "description": "This is a minimal experimental Farcaster Mini App built with Next.js 15 (App Router) and TypeScript. It demonstrates Quick Auth with `@farcaster/miniapp-sdk` and shows connected Farcaster user info (FID, username, profile picture).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed788/downloadmanager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed788/downloadmanager/issues"
+  },
+  "homepage": "https://github.com/Ahmed788/downloadmanager#readme"
 }

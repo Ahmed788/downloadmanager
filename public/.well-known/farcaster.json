@@ -1,0 +1,11 @@
+{
+  "name": "My Farcaster MiniApp",
+  "slug": "my-farcaster-miniapp",
+  "description": "Quick Auth demo miniapp showing Farcaster user info (FID, username, pfp).",
+  "version": "0.1.0",
+  "icon": "/public/icon.png",
+  "banner": "/public/banner.png",
+  "entry": "/",
+  "permissions": [],
+  "sdk": true
+}
