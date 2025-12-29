@@ -3,6 +3,12 @@
   "slug": "my-farcaster-miniapp",
   "description": "Quick Auth demo miniapp showing Farcaster user info (FID, username, pfp).",
   "version": "0.1.0",
+  "iconUrl": "https://downloadmanager.vercel.app/public/icon.png",
+  "homeUrl": "https://downloadmanager.vercel.app/",
+  "imageUrl": "https://downloadmanager.vercel.app/public/icon.png",
+  "buttonTitle": "Download from Farcaster",
+  "splashImageUrl": "https://downloadmanager.vercel.app/splash.png",
+
   "icon": "/public/icon.png",
   "banner": "/public/banner.png",
   "entry": "/",
