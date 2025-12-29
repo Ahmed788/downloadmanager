@@ -2,11 +2,11 @@
   "miniapp": {
     "version": "1.0.0",
     "name": "Download Manager",
-    "iconUrl": "/public/icon.png",
+    "iconUrl": "https://downloadmanager-git-main-ahmed788s-projects.vercel.app/public/icon.png",
       "homeUrl": "https://downloadmanager.vercel.app/",
-    "imageUrl": "public//banner.png",
+    "imageUrl": "https://downloadmanager-git-main-ahmed788s-projects.vercel.app/public//banner.png",
     "buttonTitle": "Open with Ohara",
-    "splashImageUrl": "public//banner.png",
+    "splashImageUrl": "https://downloadmanager-git-main-ahmed788s-projects.vercel.app/public//banner.png",
     "splashBackgroundColor": "#ffffff",
     "tags": [
       "download",
