@@ -7,5 +7,10 @@
   "banner": "/public/banner.png",
   "entry": "/",
   "permissions": [],
-  "sdk": true
+  "sdk": true,
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExMTA5NzksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg4NTcyQmEzMDE1RWY5MmIwRDYzRjllRjE4RjRFNmEwMjM1YjIyNjg4In0",
+    "payload": "eyJkb21haW4iOiJkb3dubG9hZG1hbmFnZXIudmVyY2VsLmFwcCJ9",
+    "signature": "gu6+wVj81F5eogxBRFqP2BOhm9E3qwNsqy9tn/uy0WghlrmQ1iWh5SJFge9B2cmzI3u7aWIRAmNGcxN/2YJELxw="
+  }
 }
