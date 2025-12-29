@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "name": "Download Manager",
     "iconUrl": "/public/icon.png",
-    "homeUrl": "/",
+      "homeUrl": "https://downloadmanager.vercel.app/",
     "imageUrl": "public//banner.png",
     "buttonTitle": "Open with Ohara",
     "splashImageUrl": "public//banner.png",
