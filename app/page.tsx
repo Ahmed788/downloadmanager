@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MiniAppSDK } from "@farcaster/miniapp-sdk";
+import MiniAppSDK from "@farcaster/miniapp-sdk";
 
-const sdk = new MiniAppSDK();
+const sdk = MiniAppSDK; // No 'new'
 
 export default function Home() {
   const [user, setUser] = useState<any>(null);
@@ -12,7 +12,7 @@ export default function Home() {
   const connectQuickAuth = async () => {
     setLoading(true);
     try {
-      const session = await sdk.quickAuth();
+      const session = await (sdk.quickAuth as any).authenticate();
       setUser(session.user);
     } catch (error) {
       console.error("Auth failed:", error);
@@ -22,9 +22,11 @@ export default function Home() {
   };
 
   useEffect(() => {
-    sdk.quickAuth().then((session: any) => {
-      if (session?.user) setUser(session.user);
-    });
+    (sdk.quickAuth as any)
+      .authenticate()
+      .then((session: any) => {
+        if (session?.user) setUser(session.user);
+      });
   }, []);
 
   return (
