@@ -1,14 +1,27 @@
 {
-  "name": "Download Manager",
-  "slug": "downloadmanager",
-  "description": "Quick Auth demo + Download manager for Farcaster media files",
-  "version": "1.0.0",
-  "icon": "/public/icon.png",
-  "banner": "public//banner.png",
-  "entry": "/",
-  "permissions": ["ONCHAIN"],
-  "sdk": true,
-  "tags": ["download", "farcaster", "media", "tools"],
+  "miniapp": {
+    "version": "1.0.0",
+    "name": "Download Manager",
+    "iconUrl": "/public/icon.png",
+    "homeUrl": "/",
+    "imageUrl": "public//banner.png",
+    "buttonTitle": "Open with Ohara",
+    "splashImageUrl": "public//banner.png",
+    "splashBackgroundColor": "#ffffff",
+    "tags": [
+      "download",
+      "farcaster",
+      "media",
+      "tools"
+    ],
+    "primaryCategory": "tools",
+    "ogTitle": "Download Manager",
+    "ogImageUrl": "public//banner.png",
+    "screenshotUrls": []
+  },
+  "baseBuilder": {
+    "ownerAddress": ""
+  },
   "accountAssociation": {
     "header": "eyJmaWQiOjExMTA5NzksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg4NTcyQmEzMDE1RWY5MmIwRDYzRjllRjE4RjRFNmEwMjM1YjIyNjg4In0",
     "payload": "eyJkb21haW4iOiJkb3dubG9hZG1hbmFnZXIudmVyY2VsLmFwcCJ9",
